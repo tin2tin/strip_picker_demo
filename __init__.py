@@ -87,7 +87,7 @@ class SEQUENCER_PT_ai_strip_picker(Panel):
     #bl_label = "Pallaidium"
     bl_space_type = "SEQUENCE_EDITOR"
     bl_region_type = "UI"
-    bl_category = "Generative AI"
+    bl_category = "Strip"
 
     def draw(self, context):
         layout = self.layout
